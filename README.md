@@ -1,25 +1,30 @@
 ### bikesharing -> Module 14
 # New York City Citi Bike Analysis
+Link to Story:
+[https://public.tableau.com/app/profile/rose.baumann/viz/CitiBikesharingNYC/NewYorkCityBikeRentalAnalysis?publish=yes] 
 
 ## NYC Citi Bike Overview
-My client and friend Kate is interested in opening up bike rental kiosks in the Des Moines, Iowa.
+My client and friend Kate is interested in opening up bike rental kiosks in Des Moines, Iowa.
 Citi Bike rental data has been released to the public and Kate and I are able to use the data for our analysis using the Tableau application. 
 We will need to be make sure we apply the data from NYC appropriately to Des Moines given the many differences including size of city, culteral and tourism rates.
 We started with the following dashboard:
 ![bikesharing](./start.png)
 
-Tableau was used to create 7 graphs that represent some of the data:
-### 1. Checkout Times for Users
-### 2. Checkout Times by Gender
-### 3. Trips by Day and Hour
-### 4. Trips by Gender by Day and Hour
-### 5. User Trips by Gender and Day
-### 6. Starting Location by Gender
-### 7. Starting Location by User (Customer or Subscriber)
+###Tableau was used to create 7 graphs that represent some of the data:
+ 1. Checkout Times for Users
+ 2. Checkout Times by Gender
+ 3. Trips by Day and Hour
+ 4. Trips by Gender by Day and Hour
+ 5. User Trips by Gender and Day
+ 6. Starting Location by Gender
+ 7. Starting Location by User (Customer or Subscriber)
+See below results
 
+### NYC Bike Analysis Results
+The analysis of the Citi data shows the following and can help us apply the same to our porosed Des Moines location:
+![bikesharing](./start.png)
 
-## NYC Bike Analysis Results
-The analysis of the Citi data shows the following:
+### Data to be applied to new proposed location in Des Moines:
 
 - Looking at all of the length of trips, even upon filtering variious amounts of time, most are under an hour. 
 It may be worthwhile to investigate the price of rentals and if the rate could be decreased for additional hours of rental to understand this trend.
@@ -27,10 +32,12 @@ It may be worthwhile to investigate the price of rentals and if the rate could b
 
 - To understand more about our riders we can look at the gender of our riders which only echos that of all riders.  There is not much difference between 
 men and women accept that we can see men are definitely outnumber women as customers.
+
 ![bikesharing](./bCheckoutGender.png)
 
 - In looking at the days of the week we can see that ridership increses during peak rush hours. 
 On the weekend, as would be expected, riders use the bikes during the entire day.
+
 ![bikesharing](./cTripbyDandH.png)
 
 - And the gender breakdown only echos this pattern. It is interesting that there seems to be a lull on Wednesday evenings.
@@ -38,16 +45,18 @@ On the weekend, as would be expected, riders use the bikes during the entire day
 ![bikesharing](./dTripGender.png)
 
 - There are more subscribers than customers and we can see again that male renters outnumber female renters. 
-There my be an opportunity to increase female ridership through marketing. 
+There my be an opportunity to increase female ridership through marketing. We can use this data for our Des Moines base.
 
 ![bikesharing](./eTripbyUserGender.png)
 
 - To gain more knowledge of our base riders, we can use the slider to navigate to each of the starting locations 
-to see the number of male vs female at each location.
+to see the number of male vs female at each location. We will apply this knowledge to Des Moines potential riders.
 
 ![bikesharing](./fStartbyGender.png)
 
-- As well, we can see who are subscribers vs customers per location.
+- As well, we can see who are subscribers vs customers per location. This indicates where and how many types of clients we have in each area, 
+which can help when looking at our new Iowa location.
+
 ![bikesharing](./glocbyUser.png)
 
 ## NYC Citi Bikerental Summary

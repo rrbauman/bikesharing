@@ -22,7 +22,6 @@ See below results
 
 ### NYC Bike Analysis Results
 The analysis of the Citi data shows the following and can help us apply the same to our porosed Des Moines location:
-![bikesharing](./start.png)
 
 ### Data to be applied to new proposed location in Des Moines:
 
